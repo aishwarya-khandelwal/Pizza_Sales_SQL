@@ -1,4 +1,7 @@
 # Pizza_-Sales_SQL
+![image](https://github.com/user-attachments/assets/a3bc0d5a-e37e-4b9b-8a77-962072eee979)
+
+
 --Retrieve the total number of orders placed.-2135
 
 select count(order_id) from orders;
