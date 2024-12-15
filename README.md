@@ -1,4 +1,4 @@
-# Pizza_-Sales_SQL
+# Pizza_Sales_SQL
 ![image](https://github.com/user-attachments/assets/a3bc0d5a-e37e-4b9b-8a77-962072eee979)
 
 
