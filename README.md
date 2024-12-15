@@ -16,7 +16,8 @@ select max (price) from pizzas;
 
 
 --Identify the most common pizza size ordered.
-/* select pizza_id, sum(quantity) as total_order_quantity from order_details group by pizza_id order by total_order_quantity desc */
+select pizza_id, sum(quantity) as total_order_quantity from order_details group by pizza_id order by total_order_quantity desc;
+
 select size, sum(quantity) as order_size_quantity from (Select pizzas.size, order_details.pizza_id, order_details.quantity
 From order_details Left Join pizzas
 On order_details.pizza_id=pizzas.pizza_id) group by size order by order_size_quantity desc;
